@@ -1,6 +1,28 @@
 /* google font work sans */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared styles */
 body {
   font-family: "Work Sans", sans-serif;
+}
+
+/* header part styles */
+.header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.header-container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px 0 45px;
+}
+
+.nav-title {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
