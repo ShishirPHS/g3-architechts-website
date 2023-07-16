@@ -28,6 +28,13 @@ body {
   cursor: pointer;
 }
 
+.text-light-gray {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 /* header part styles */
 .header {
   background: rgba(255, 144, 14, 0.1);
@@ -87,9 +94,7 @@ nav li a {
 
 .banner-description {
   margin-bottom: 32px;
-  color: #727272;
   text-align: center;
-  line-height: 26px;
 }
 
 .banner-image img {
@@ -128,10 +133,6 @@ main {
 }
 
 .teams-description {
-  color: #727272;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 26px;
   width: 537px;
   margin: 24px 0 32px;
 }
@@ -165,7 +166,7 @@ main {
   }
 
   .teams-img-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     margin-right: 0;
     margin-top: 50px;
   }
@@ -207,7 +208,7 @@ main {
   }
 
   .teams-img-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     margin-right: 0;
     margin-top: 50px;
   }
