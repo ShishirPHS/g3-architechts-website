@@ -11,6 +11,12 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.section-title {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
 .btn-primary {
   border-radius: 8px;
   background: #ff900e;
@@ -37,12 +43,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-title {
-  color: #131313;
-  font-size: 2.8rem;
-  font-weight: 700;
 }
 
 nav > ul {
@@ -81,6 +81,8 @@ nav li a {
   text-align: center;
   font-size: 4rem;
   font-weight: 700;
+  width: 620px;
+  margin: 0 auto;
 }
 
 .banner-description {
@@ -94,6 +96,55 @@ nav li a {
   max-width: 100%;
 }
 
+/* main styles */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* teams part css start */
+.teams-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 85px 0 130px;
+}
+
+.teams-title {
+  color: #727272;
+  font-size: 2.8rem;
+  font-weight: 500;
+  width: 468px;
+}
+
+.of-our {
+  color: #131313;
+  font-weight: 700;
+}
+
+.teams-features {
+  color: #ff900e;
+  font-weight: 700;
+}
+
+.teams-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 537px;
+  margin: 24px 0 32px;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-right: 76px;
+}
+
+/* teams part css end */
+
 /* responsive media queries */
 @media screen and (max-width: 576.98px) {
   nav {
@@ -102,6 +153,37 @@ nav li a {
 
   nav li {
     margin-right: 30px;
+  }
+
+  .banner-title {
+    width: auto;
+  }
+
+  .teams-container {
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+
+  .teams-img-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 0;
+    margin-top: 50px;
+  }
+
+  .teams-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teams-title {
+    width: auto;
+    text-align: center;
+  }
+
+  .teams-description {
+    width: auto;
+    text-align: center;
   }
 }
 
@@ -113,5 +195,36 @@ nav li a {
 
   nav li {
     margin-right: 30px;
+  }
+
+  .banner-title {
+    width: auto;
+  }
+
+  .teams-container {
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+
+  .teams-img-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 0;
+    margin-top: 50px;
+  }
+
+  .teams-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teams-title {
+    width: auto;
+    text-align: center;
+  }
+
+  .teams-description {
+    width: auto;
+    text-align: center;
   }
 }
