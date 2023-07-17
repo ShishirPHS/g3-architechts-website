@@ -149,11 +149,12 @@ main {
 /* lovable features css start */
 .lovable-features {
   display: flex;
-  margin-bottom: 130px;
+  margin-bottom: 10px;
 }
 
 .feature-content {
   margin-right: 146px;
+  padding-top: 40px;
 }
 
 .lovable-features .section-title {
@@ -180,6 +181,33 @@ main {
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.ten-years-badge {
+  border-radius: 8px;
+  background: #ff900e;
+  width: 342px;
+  padding: 45px 42px;
+  box-sizing: border-box;
+  position: relative;
+  left: -92px;
+  top: -151px;
+}
+
+.ten-years-badge h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.ten-years-badge h6 {
+  color: #fff;
+  font-size: 1.56rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 40px;
+}
 /* lovable features css end */
 
 /* =========================================================================
@@ -187,7 +215,9 @@ main {
 ========================================================================= */
 /* responsive for small devices */
 @media screen and (max-width: 576.98px) {
-  nav {
+  nav,
+  .teams-content,
+  .lovable-features {
     flex-direction: column;
   }
 
@@ -212,7 +242,6 @@ main {
 
   .teams-content {
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
@@ -224,6 +253,39 @@ main {
   .teams-description {
     width: auto;
     text-align: center;
+  }
+
+  .lovable-features {
+    margin-bottom: 50px;
+  }
+
+  .lovable-features .section-title {
+    width: auto;
+  }
+
+  .lovable-features .feature-description {
+    width: auto;
+  }
+
+  .feature-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-img img {
+    max-width: 100%;
+  }
+
+  .feature-content {
+    margin-right: 0;
+  }
+
+  .ten-years-badge {
+    width: 300px;
+    position: static;
+    margin-top: 20px;
+    padding: 24px 11px;
   }
 }
 
