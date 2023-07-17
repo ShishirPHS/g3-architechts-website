@@ -210,6 +210,55 @@ main {
 }
 /* lovable features css end */
 
+/* facts part css start */
+.facts {
+  margin-bottom: 180px;
+}
+
+.facts-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 542px;
+  margin-top: 24px;
+}
+
+.facts .cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.facts .cards .card {
+  margin-right: 124px;
+  padding: 45px 35px 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+}
+
+.facts .cards .card:last-child {
+  margin-right: 0;
+}
+
+.facts .cards .card-title {
+  color: #424242;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.facts .cards .card-description {
+  color: #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* facts part css end */
+
 /* =========================================================================
                         Responsive Styles Start
 ========================================================================= */
