@@ -511,6 +511,10 @@ main {
     border: 2px solid #ff900e;
   }
 
+  .facts .cards .card:last-child {
+    margin-right: 0;
+  }
+
   /* sponsors part start */
   .sponsors .icons {
     flex-direction: column;
