@@ -512,7 +512,7 @@ main {
   }
 
   .facts .cards .card:last-child {
-    margin-right: 0;
+    margin-right: 10px;
   }
 
   /* sponsors part start */
